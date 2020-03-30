@@ -20,7 +20,7 @@ if( NOT M_LIBRARY)
    #
    if( M_LIBRARY)
       #
-      # Add to M_LIBRARY list.
+      # Add M_LIBRARY to OS_SPECIFIC_LIBRARIES list.
       # Disable with: `mulle-sourcetree mark math no-cmakeadd`
       #
       set( OS_SPECIFIC_LIBRARIES

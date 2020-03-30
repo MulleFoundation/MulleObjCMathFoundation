@@ -10,24 +10,24 @@
  *
  *  version:  major, minor, patch
  */
-#define MULLE_OB_JC_MATH_FOUNDATION_VERSION  ((0 << 20) | (7 << 8) | 56)
+#define MULLE_OBJC_MATH_FOUNDATION_VERSION  ((0 << 20) | (17 << 8) | 0)
 
 
 static inline unsigned int   MulleObjCMathFoundation_get_version_major( void)
 {
-   return( MULLE_OB_JC_MATH_FOUNDATION_VERSION >> 20);
+   return( MULLE_OBJC_MATH_FOUNDATION_VERSION >> 20);
 }
 
 
 static inline unsigned int   MulleObjCMathFoundation_get_version_minor( void)
 {
-   return( (MULLE_OB_JC_MATH_FOUNDATION_VERSION >> 8) & 0xFFF);
+   return( (MULLE_OBJC_MATH_FOUNDATION_VERSION >> 8) & 0xFFF);
 }
 
 
 static inline unsigned int   MulleObjCMathFoundation_get_version_patch( void)
 {
-   return( MULLE_OB_JC_MATH_FOUNDATION_VERSION & 0xFF);
+   return( MULLE_OBJC_MATH_FOUNDATION_VERSION & 0xFF);
 }
 
 
