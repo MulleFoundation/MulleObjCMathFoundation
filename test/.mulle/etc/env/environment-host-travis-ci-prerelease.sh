@@ -156,6 +156,12 @@ export MULLE_OBJC_STARTUP_URL="https://github.com/mulle-objc/MulleObjC-startup.g
 
 
 #
+# MulleObjC-startup branch: ${MULLE_OBJC_STARTUP_BRANCH}
+#
+export MULLE_OBJC_STARTUP_BRANCH="prerelease"
+
+
+#
 # MulleObjC nodetype: ${MULLE_OBJC_NODETYPE:-tar}
 #
 export MULLE_OBJC_NODETYPE="git"
@@ -279,6 +285,42 @@ export MULLE_OBJC_LIST_URL="https://github.com/mulle-objc/mulle-objc-list.git"
 # mulle-objc-list branch: ${MULLE_OBJC_LIST_BRANCH}
 #
 export MULLE_OBJC_LIST_BRANCH="prerelease"
+
+
+#
+# MulleObjCMathFoundation nodetype: ${MULLE_OBJC_MATH_FOUNDATION_NODETYPE:-tar}
+#
+export MULLE_OBJC_MATH_FOUNDATION_NODETYPE="git"
+
+
+#
+# MulleObjCMathFoundation url: ${MULLE_OBJC_MATH_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCMathMulleObjC/archive/${MULLE_TAG}.tar.gz}
+#
+export MULLE_OBJC_MATH_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCMathMulleObjC.git"
+
+
+#
+# MulleObjCMathFoundation branch: ${MULLE_OBJC_MATH_FOUNDATION_BRANCH}
+#
+export MULLE_OBJC_MATH_FOUNDATION_BRANCH="prerelease"
+
+
+#
+# MulleObjCValueFoundation nodetype: ${MULLE_OBJC_VALUE_FOUNDATION_NODETYPE:-tar}
+#
+export MULLE_OBJC_VALUE_FOUNDATION_NODETYPE="git"
+
+
+#
+# MulleObjCValueFoundation url: ${MULLE_OBJC_VALUE_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCValueFoundation/archive/${MULLE_TAG}.tar.gz}
+#
+export MULLE_OBJC_VALUE_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCValueFoundation.git"
+
+
+#
+# MulleObjCValueFoundation branch: ${MULLE_OBJC_VALUE_FOUNDATION_BRANCH}
+#
+export MULLE_OBJC_VALUE_FOUNDATION_BRANCH="prerelease"
 
 
 #
