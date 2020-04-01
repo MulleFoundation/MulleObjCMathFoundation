@@ -294,9 +294,9 @@ export MULLE_OBJC_MATH_FOUNDATION_NODETYPE="git"
 
 
 #
-# MulleObjCMathFoundation url: ${MULLE_OBJC_MATH_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCMathMulleObjC/archive/${MULLE_TAG}.tar.gz}
+# MulleObjCMathFoundation url: ${MULLE_OBJC_MATH_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCMathFoundation/archive/${MULLE_TAG}.tar.gz}
 #
-export MULLE_OBJC_MATH_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCMathMulleObjC.git"
+export MULLE_OBJC_MATH_FOUNDATION_URL="https://github.com/MulleFoundation/MulleObjCMathFoundation.git"
 
 
 #
