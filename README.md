@@ -1,7 +1,14 @@
 # MulleObjCMathFoundation
 
-Extensions to MulleObjCValueFoundation, that require the **math** library
-(aka `-lm`)
+#### 📈 NSNumber refines that use the math library
+
+Extensions to [MulleObjCValueFoundation](../MulleObjCValueFoundation=),
+that require the **math** library (aka `-lm`).
+
+
+Build Status | Release Version
+-------------|-----------------------------------
+[![Build Status](https://travis-ci.org/MulleFoundation/MulleObjCMathFoundation.svg?branch=release)](https://travis-ci.org/MulleFoundation/MulleObjCMathFoundation) | ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleFoundation/MulleObjCMathFoundation.svg) [![Build Status](https://travis-ci.org/MulleFoundation/MulleObjCMathFoundation.svg?branch=release)](https://travis-ci.org/MulleFoundation/MulleObjCMathFoundation)
 
 
 ## Build
