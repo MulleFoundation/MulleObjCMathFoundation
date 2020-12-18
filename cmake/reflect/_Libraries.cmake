@@ -8,8 +8,8 @@ if( MULLE_TRACE_INCLUDE)
 endif()
 
 #
-# Generated from sourcetree: math;no-all-load,no-cmakeinherit,no-import,no-share;m
-# Disable with: `mulle-sourcetree mark math no-link`
+# Generated from sourcetree: math;no-all-load,no-build,no-cmakeinherit,no-delete,no-dependency,no-fs,no-import,no-share,no-update;m
+# Disable with: `mulle-sourcetree mark math `
 #
 if( NOT M_LIBRARY)
    find_library( M_LIBRARY NAMES m)

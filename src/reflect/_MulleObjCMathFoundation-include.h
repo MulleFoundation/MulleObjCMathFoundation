@@ -13,12 +13,17 @@
 #define _MulleObjCMathFoundation_include_h__
 
 // How to tweak the following math #include
-//    remove:          `mulle-sourcetree mark math no-header`
-//    rename:          `mulle-sourcetree mark math set include whatever.h`
-//    toggle #import:  `mulle-sourcetree mark math [no-]import`
-//    toggle public:   `mulle-sourcetree mark math [no-]public`
-//    toggle optional: `mulle-sourcetree mark math [no-]require`
-//    remove for os:   `mulle-sourcetree mark math no-os-<osname>`
-# include <math.h>   // math
+//    remove:             `mulle-sourcetree mark math no-header`
+//    rename:             `mulle-sde dependency|library set math include whatever.h`
+//    toggle #import:     `mulle-sourcetree mark math [no-]import`
+//    toggle localheader: `mulle-sourcetree mark math [no-]localheader`
+//    toggle public:      `mulle-sourcetree mark math [no-]public`
+//    toggle optional:    `mulle-sourcetree mark math [no-]require`
+//    remove for os:      `mulle-sourcetree mark math no-os-<osname>`
+# if defined( __has_include) && __has_include("math.h")
+#   include "math.h"   // math
+# else
+#   include <math.h>   // math
+# endif
 
 #endif
