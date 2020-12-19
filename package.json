@@ -1,0 +1,16 @@
+{
+   "name" : "MulleObjCMathFoundation",
+   "version" : "0.18.0",
+   "description" : "📈 NSNumber refines that use the math library",
+   "homepage" : "https://github.com/MulleFoundation/MulleObjCMathFoundation",
+   "bugs" : "https://github.com/MulleFoundation/MulleObjCMathFoundation/issues",
+   "keywords" : [],
+   "license" : "UNLICENSED",
+   "repository" : {
+      "type" : "git",
+      "url" : "MulleFoundation/MulleObjCMathFoundation"
+   },
+   "dependencies" : {
+      "MulleObjCValueFoundation" : "MulleFoundation/MulleObjCValueFoundation"
+   }
+}
