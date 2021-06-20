@@ -1,2 +1,2 @@
-math;none;no-all-load,no-build,no-cmakeinherit,no-delete,no-dependency,no-fs,no-import,no-share,no-update;D8EEFBC1-C5F7-434D-881E-F5D620BC0B21;;;;;aliases=m
+math;none;no-all-load,no-build,no-cmake-inherit,no-delete,no-dependency,no-fs,no-import,no-share,no-update;D8EEFBC1-C5F7-434D-881E-F5D620BC0B21;;;;;aliases=m
 MulleObjCValueFoundation;${MULLE_OBJC_VALUE_FOUNDATION_NODETYPE:-tar};no-singlephase;56B2CBA6-7880-4D6F-ABF8-B7C4E0EFFE7F;${MULLE_OBJC_VALUE_FOUNDATION_URL:-https://github.com/MulleFoundation/MulleObjCValueFoundation/archive/${MULLE_TAG}.tar.gz};${MULLE_OBJC_VALUE_FOUNDATION_BRANCH};${MULLE_OBJC_VALUE_FOUNDATION_TAG:-latest};;
