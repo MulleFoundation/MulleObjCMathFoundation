@@ -7,19 +7,19 @@ export PROJECT_NAME="MulleObjCMathFoundation"
 #
 #
 #
-export PROJECT_IDENTIFIER="MulleObjCMathFoundation"
 
-
-#
-#
-#
-export PROJECT_DOWNCASE_IDENTIFIER="mulle_objc_math_foundation"
 
 
 #
 #
 #
-export PROJECT_UPCASE_IDENTIFIER="MULLE_OBJC_MATH_FOUNDATION"
+
+
+
+#
+#
+#
+
 
 
 #
