@@ -16,7 +16,7 @@ endif()
 #
 # Generated from sourcetree: D8EEFBC1-C5F7-434D-881E-F5D620BC0B21;math;no-all-load,no-build,no-cmake-inherit,no-delete,no-dependency,no-fs,no-import,no-share,no-update;m
 # Disable with : `mulle-sourcetree mark math `
-# Disable for this platform: `mulle-sourcetree mark math no-cmake-platform-linux`
+# Disable for this platform: `mulle-sourcetree mark math no-cmake-platform-darwin`
 #
 if( NOT M_LIBRARY)
    find_library( M_LIBRARY NAMES m)
