@@ -1,0 +1,8 @@
+0 : _MulleObjCTaggedPointerIntegerNumber
+1 : _MulleObjCTaggedPointerIntegerNumber
+1848 : _MulleObjCTaggedPointerIntegerNumber
+-288230376151711744 : _MulleObjCInt64Number
+288230376151711744 : _MulleObjCInt64Number
+18.480000000000000426325641456060111522674560546875 : _MulleObjCDoubleNumber
+inf : _MulleObjCDoubleNumber
+nan : _MulleObjCDoubleNumber

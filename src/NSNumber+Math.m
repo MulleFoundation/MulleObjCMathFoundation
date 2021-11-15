@@ -57,7 +57,7 @@ static inline int   double_is_long( double value)
    feclearexcept( FE_INVALID);
    l_val = lrint( value);
    d_val = (double) l_val;
-   if( ! fetestexcept( FE_INVALID))
+   if( fetestexcept( FE_INVALID))
       return( 0);
    return( d_val == value);
 }
@@ -71,7 +71,7 @@ static inline int   double_is_long_long( double value)
    feclearexcept( FE_INVALID);
    l_val = llrint( value);
    d_val = (double) l_val;
-   if( ! fetestexcept( FE_INVALID))
+   if( fetestexcept( FE_INVALID))
       return( 0);
    return( d_val == value);
 }
@@ -85,7 +85,7 @@ static inline int   long_double_is_long_long( long double value)
    feclearexcept( FE_INVALID);
    ll_val = llrintl( value);
    d_val  = (long double) ll_val;
-   if( ! fetestexcept( FE_INVALID))
+   if( fetestexcept( FE_INVALID))
       return( 0);
    return( d_val == value);
 }
@@ -116,6 +116,7 @@ static inline id   initWithLongDouble( NSNumber *self, long double value)
    if( long_double_is_long_long( value))
       return( [self initWithLongLong:(long long) value]);
 
+   // MEMO: don't degrade to double as we would lose precision
    universe = _mulle_objc_object_get_universe( self);
    _mulle_objc_universe_get_foundationspace( universe, (void **) &config, NULL);
 
