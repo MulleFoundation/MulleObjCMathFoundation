@@ -16,14 +16,14 @@
 
 // You can tweak the following #include with these commands.
 // (Use D8EEFBC1-C5F7-434D-881E-F5D620BC0B21 instead of math if there are duplicate entries)
-//    remove:             `mulle-sourcetree mark math no-header`
+//    remove:             `mulle-sde dependency mark math no-header`
 //    rename:             `mulle-sde dependency|library set math include whatever.h`
-//    reorder:            `mulle-sourcetree move math <up|down>`
-//    toggle #include:    `mulle-sourcetree mark math [no-]import`
-//    toggle public:      `mulle-sourcetree mark math [no-]public`
-//    toggle optional:    `mulle-sourcetree mark math [no-]require`
-//    remove for platform:`mulle-sourcetree mark math no-platform-<uname>`
-//        (use mulle-sourcetree-to-c --unames for known values)
+//    reorder:            `mulle-sde dependency move math <up|down>`
+//    toggle #include:    `mulle-sde dependency mark math [no-]import`
+//    toggle public:      `mulle-sde dependency mark math [no-]public`
+//    toggle optional:    `mulle-sde dependency mark math [no-]require`
+//    remove for platform:`mulle-sde dependency mark math no-platform-<uname>`
+//        (use `mulle-sourcetree-to-c --unames` to list known values)
 #include <math.h>   // math
 
 #endif
