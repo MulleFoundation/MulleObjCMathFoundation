@@ -31,7 +31,8 @@ static inline unsigned int   MulleObjCMathFoundation_get_version_patch( void)
 }
 
 
-extern uint32_t   MulleObjCMathFoundation_get_version( void);
+MULLE_OBJC_MATH_FOUNDATION_EXTERN_GLOBAL
+uint32_t   MulleObjCMathFoundation_get_version( void);
 
 
 /*
