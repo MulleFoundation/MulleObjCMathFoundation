@@ -1,6 +1,8 @@
 cmake_minimum_required( VERSION 3.1)
 
 project( MulleObjCMathFoundation C)
+add_definitions( -DMULLE_OBJC_MATH_FOUNDATION_EXTERN_GLOBAL=extern)
+
 
 
 ### mulle-sde environment
