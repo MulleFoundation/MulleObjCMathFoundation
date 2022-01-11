@@ -1,6 +1,6 @@
 ## 0.20.0
 
-* Various small improvements
+* fix `FE_INVALID` test
 
 
 ## 0.19.0
