@@ -12,30 +12,32 @@ if( MULLE_TRACE_INCLUDE)
 endif()
 
 #
-# Generated from sourcetree: D8EEFBC1-C5F7-434D-881E-F5D620BC0B21;math;no-all-load,no-build,no-cmake-inherit,no-delete,no-dependency,no-fs,no-import,no-share,no-update;m
+# Generated from sourcetree: D8EEFBC1-C5F7-434D-881E-F5D620BC0B21;math;no-all-load,no-build,no-cmake-inherit,no-delete,no-dependency,no-fs,no-import,no-platform-windows,no-share,no-update;m
 # Disable with : `mulle-sourcetree mark math `
 # Disable for this platform: `mulle-sourcetree mark math no-cmake-platform-${MULLE_UNAME}`
 #
-if( NOT M_LIBRARY)
-   find_library( M_LIBRARY NAMES m)
-   message( STATUS "M_LIBRARY is ${M_LIBRARY}")
-   #
-   # The order looks ascending, but due to the way this file is read
-   # it ends up being descending, which is what we need.
-   #
-   if( M_LIBRARY)
+if( NOT ${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+   if( NOT M_LIBRARY)
+      find_library( M_LIBRARY NAMES m)
+      message( STATUS "M_LIBRARY is ${M_LIBRARY}")
       #
-      # Add M_LIBRARY to OS_SPECIFIC_LIBRARIES list.
-      # Disable with: `mulle-sourcetree mark math no-cmake-add`
+      # The order looks ascending, but due to the way this file is read
+      # it ends up being descending, which is what we need.
       #
-      set( OS_SPECIFIC_LIBRARIES
-         ${OS_SPECIFIC_LIBRARIES}
-         ${M_LIBRARY}
-         CACHE INTERNAL "need to cache this"
-      )
-      # intentionally left blank
-   else()
-      # Disable with: `mulle-sourcetree mark math no-require-link`
-      message( FATAL_ERROR "M_LIBRARY was not found")
+      if( M_LIBRARY)
+         #
+         # Add M_LIBRARY to OS_SPECIFIC_LIBRARIES list.
+         # Disable with: `mulle-sourcetree mark math no-cmake-add`
+         #
+         set( OS_SPECIFIC_LIBRARIES
+            ${OS_SPECIFIC_LIBRARIES}
+            ${M_LIBRARY}
+            CACHE INTERNAL "need to cache this"
+         )
+         # intentionally left blank
+      else()
+         # Disable with: `mulle-sourcetree mark math no-require-link`
+         message( FATAL_ERROR "M_LIBRARY was not found")
+      endif()
    endif()
 endif()

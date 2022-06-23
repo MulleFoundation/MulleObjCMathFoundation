@@ -24,6 +24,8 @@
 //    toggle optional:    `mulle-sde dependency mark math [no-]require`
 //    remove for platform:`mulle-sde dependency mark math no-platform-<uname>`
 //        (use `mulle-sourcetree-to-c --unames` to list known values)
-#include <math.h>   // math
+# if ! defined( _WIN32)
+# include <math.h>   // math
+#endif
 
 #endif
