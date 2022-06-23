@@ -1,3 +1,7 @@
+### 0.20.1
+
+* fix for Windows
+
 ## 0.20.0
 
 * fix `FE_INVALID` test
