@@ -15,6 +15,7 @@ endif()
 # Generated from sourcetree: D8EEFBC1-C5F7-434D-881E-F5D620BC0B21;math;no-all-load,no-build,no-cmake-inherit,no-delete,no-dependency,no-fs,no-import,no-platform-windows,no-share,no-update;m
 # Disable with : `mulle-sourcetree mark math `
 # Disable for this platform: `mulle-sourcetree mark math no-cmake-platform-${MULLE_UNAME}`
+# Disable for a sdk: `mulle-sourcetree mark math no-cmake-sdk-<name>`
 #
 if( NOT ${CMAKE_SYSTEM_NAME} MATCHES "Windows")
    if( NOT M_LIBRARY)
@@ -40,4 +41,4 @@ if( NOT ${CMAKE_SYSTEM_NAME} MATCHES "Windows")
          message( FATAL_ERROR "M_LIBRARY was not found")
       endif()
    endif()
-endif()
+   endif()

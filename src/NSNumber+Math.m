@@ -49,18 +49,19 @@
 //
 @implementation NSNumber( Math)
 
-static inline int   double_is_long( double value)
-{
-   long     l_val;
-   double   d_val;
 
-   feclearexcept( FE_INVALID);
-   l_val = lrint( value);
-   d_val = (double) l_val;
-   if( fetestexcept( FE_INVALID))
-      return( 0);
-   return( d_val == value);
-}
+// static inline int   double_is_long( double value)
+// {
+//    long     l_val;
+//    double   d_val;
+//
+//    feclearexcept( FE_INVALID);
+//    l_val = lrint( value);
+//    d_val = (double) l_val;
+//    if( fetestexcept( FE_INVALID))
+//       return( 0);
+//    return( d_val == value);
+// }
 
 
 static inline int   double_is_long_long( double value)
