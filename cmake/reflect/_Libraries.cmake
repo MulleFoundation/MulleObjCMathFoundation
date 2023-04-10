@@ -18,27 +18,25 @@ endif()
 # Disable for a sdk: `mulle-sourcetree mark math no-cmake-sdk-<name>`
 #
 if( NOT ${CMAKE_SYSTEM_NAME} MATCHES "Windows")
-   if( NOT M_LIBRARY)
-      find_library( M_LIBRARY NAMES m)
-      message( STATUS "M_LIBRARY is ${M_LIBRARY}")
+   if( NOT MATH_LIBRARY)
+      find_library( MATH_LIBRARY NAMES
+         m
+      )
+      message( STATUS "MATH_LIBRARY is ${MATH_LIBRARY}")
       #
       # The order looks ascending, but due to the way this file is read
       # it ends up being descending, which is what we need.
       #
-      if( M_LIBRARY)
+      if( MATH_LIBRARY)
          #
-         # Add M_LIBRARY to OS_SPECIFIC_LIBRARIES list.
+         # Add MATH_LIBRARY to OS_SPECIFIC_LIBRARIES list.
          # Disable with: `mulle-sourcetree mark math no-cmake-add`
          #
-         set( OS_SPECIFIC_LIBRARIES
-            ${OS_SPECIFIC_LIBRARIES}
-            ${M_LIBRARY}
-            CACHE INTERNAL "need to cache this"
-         )
+         list( APPEND OS_SPECIFIC_LIBRARIES ${MATH_LIBRARY})
          # intentionally left blank
       else()
          # Disable with: `mulle-sourcetree mark math no-require-link`
-         message( FATAL_ERROR "M_LIBRARY was not found")
+         message( FATAL_ERROR "MATH_LIBRARY was not found")
       endif()
    endif()
    endif()

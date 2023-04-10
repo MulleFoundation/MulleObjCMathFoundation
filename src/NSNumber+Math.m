@@ -36,10 +36,10 @@
 #import "import-private.h"
 
 // private stuff from MulleObjC
-#import <MulleObjCValueFoundation/private/NSNumber-Private.h>
+#import <MulleObjCValueFoundation/NSNumber-Private.h>
 #import <MulleObjCValueFoundation/_MulleObjCConcreteNumber.h>
-#import <MulleObjC/private/mulle-objc-exceptionhandlertable-private.h>
-#import <MulleObjC/private/mulle-objc-universeconfiguration-private.h>
+#import <MulleObjC/mulle-objc-exceptionhandlertable-private.h>
+#import <MulleObjC/mulle-objc-universeconfiguration-private.h>
 
 
 #pragma clang diagnostic ignored "-Wobjc-protocol-method-implementation"
