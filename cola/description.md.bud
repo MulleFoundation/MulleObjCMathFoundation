@@ -1,0 +1,2 @@
+Extensions to [MulleObjCValueFoundation](//github.com/MulleFoundation/MulleObjCValueFoundation),
+that require the **math** library (aka `-lm`).
