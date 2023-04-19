@@ -1,6 +1,6 @@
 {
    "name" : "MulleObjCMathFoundation",
-   "version" : "0.20.2",
+   "version" : "0.20.3",
    "description" : "NSNumber refines that use the math library",
    "keywords" : [],
    "license" : "BSD-3-Clause",
@@ -14,7 +14,6 @@
       "src/MulleObjCMathFoundation.h",
       "src/MulleObjCMathFoundation.m",
       "src/NSNumber+Math.m",
-      "src/reflect/objc-loader.inc",
       "src/reflect/_MulleObjCMathFoundation-export.h",
       "src/reflect/_MulleObjCMathFoundation-import-private.h",
       "src/reflect/_MulleObjCMathFoundation-import.h",
