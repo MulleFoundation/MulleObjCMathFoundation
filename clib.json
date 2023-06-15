@@ -14,6 +14,7 @@
       "src/MulleObjCMathFoundation.h",
       "src/MulleObjCMathFoundation.m",
       "src/NSNumber+Math.m",
+      "src/reflect/objc-loader.inc",
       "src/reflect/_MulleObjCMathFoundation-export.h",
       "src/reflect/_MulleObjCMathFoundation-import-private.h",
       "src/reflect/_MulleObjCMathFoundation-import.h",
