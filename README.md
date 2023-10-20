@@ -53,6 +53,8 @@ Install the requirements:
 | [MulleObjCValueFoundation](https://github.com/MulleFoundation/MulleObjCValueFoundation)             | 💶 Value classes NSNumber, NSString, NSDate, NSData
 | [mulle-objc-list](https://github.com/mulle-objc/mulle-objc-list)             | 📒 Lists mulle-objc runtime information contained in executables.
 
+Download the latest [tar](https://github.com/MulleFoundation/MulleObjCMathFoundation/archive/refs/tags/latest.tar.gz) or [zip](https://github.com/MulleFoundation/MulleObjCMathFoundation/archive/refs/tags/latest.zip) archive and unpack it.
+
 Install **MulleObjCMathFoundation** into `/usr/local` with [cmake](https://cmake.org):
 
 ``` sh
