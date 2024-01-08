@@ -1,7 +1,7 @@
 {
    "name" : "MulleObjCMathFoundation",
-   "version" : "0.20.3",
-   "description" : "NSNumber refines that use the math library",
+   "version" : "0.20.4",
+   "description" : "📈 NSNumber refines that use the math library",
    "keywords" : [],
    "license" : "BSD-3-Clause",
    "repo" : "MulleFoundation/MulleObjCMathFoundation",
@@ -20,7 +20,8 @@
       "src/reflect/_MulleObjCMathFoundation-import.h",
       "src/reflect/_MulleObjCMathFoundation-include-private.h",
       "src/reflect/_MulleObjCMathFoundation-include.h",
-      "src/reflect/_MulleObjCMathFoundation-provide.h"
+      "src/reflect/_MulleObjCMathFoundation-provide.h",
+      "src/reflect/_MulleObjCMathFoundation-versioncheck.h"
    ],
    "dependencies" : {
       "MulleFoundation/MulleObjCValueFoundation": "*",

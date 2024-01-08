@@ -54,5 +54,6 @@ src/generic/import.h
 set( PUBLIC_HEADERS
 src/MulleObjCLoader+MulleObjCMathFoundation.h
 src/MulleObjCMathFoundation.h
+src/reflect/_MulleObjCMathFoundation-versioncheck.h
 )
 
