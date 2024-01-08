@@ -5,9 +5,10 @@
 Extensions to [MulleObjCValueFoundation](//github.com/MulleFoundation/MulleObjCValueFoundation),
 that require the **math** library (aka `-lm`).
 
+
 | Release Version                                       | Release Notes
 |-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag//MulleObjCMathFoundation.svg?branch=release) [![Build Status](https://github.com//MulleObjCMathFoundation/workflows/CI/badge.svg?branch=release)](//github.com//MulleObjCMathFoundation/actions)| [RELEASENOTES](RELEASENOTES.md) |
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleFoundation/MulleObjCMathFoundation.svg?branch=release) [![Build Status](https://github.com/MulleFoundation/MulleObjCMathFoundation/workflows/CI/badge.svg?branch=release)](//github.com/MulleFoundation/MulleObjCMathFoundation/actions) | [RELEASENOTES](RELEASENOTES.md) |
 
 
 
@@ -68,6 +69,6 @@ cmake --install build --config Release
 
 ## Author
 
-[Nat!](https://mulle-kybernetik.com/weblog) for Mulle kybernetiK
+[Nat!](https://mulle-kybernetik.com/weblog) for Mulle kybernetiK  
 
 
