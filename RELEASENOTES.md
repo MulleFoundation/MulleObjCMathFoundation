@@ -1,3 +1,7 @@
+### 0.20.5
+
+* fix for cosmopolitan
+
 ### 0.20.4
 
 * Various small improvements
