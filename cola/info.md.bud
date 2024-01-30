@@ -1,0 +1,4 @@
+## Info
+
+Static linking of `libm` is not really working on Linux at least with libc. See for example:
+[https://bugzilla.redhat.com/show_bug.cgi?id=1433347](https://bugzilla.redhat.com/show_bug.cgi?id=1433347)
