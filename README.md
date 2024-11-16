@@ -14,7 +14,10 @@ that require the **math** library (aka `-lm`).
 
 
 
+## Info
 
+Static linking of `libm` is not really working on Linux at least with libc. See for example:
+[https://bugzilla.redhat.com/show_bug.cgi?id=1433347](https://bugzilla.redhat.com/show_bug.cgi?id=1433347)
 ## Requirements
 
 |   Requirement         | Release Version  | Description
@@ -28,15 +31,31 @@ that require the **math** library (aka `-lm`).
 
 ## Add
 
+**This project is a component of the [MulleFoundation](//github.com/MulleFoundation/MulleFoundation) library.
+As such you usually will *not* add or install it individually, unless you
+specifically do not want to link against `MulleFoundation`.**
+
+
+### Add as an individual component
+
 Use [mulle-sde](//github.com/mulle-sde) to add MulleObjCMathFoundation to your project:
 
 ``` sh
 mulle-sde add github:MulleFoundation/MulleObjCMathFoundation
 ```
 
-## Install
+To only add the sources of MulleObjCMathFoundation with dependency
+sources use [clib](https://github.com/clibs/clib):
 
-### Install with mulle-sde
+
+``` sh
+clib install --out src/MulleFoundation MulleFoundation/MulleObjCMathFoundation
+```
+
+Add `-isystem src/MulleFoundation` to your `CFLAGS` and compile all the sources that were downloaded with your project.
+
+
+## Install
 
 Use [mulle-sde](//github.com/mulle-sde) to build and install MulleObjCMathFoundation and all dependencies:
 
@@ -45,7 +64,7 @@ mulle-sde install --prefix /usr/local \
    https://github.com/MulleFoundation/MulleObjCMathFoundation/archive/latest.tar.gz
 ```
 
-### Manual Installation
+### Legacy Installation
 
 Install the requirements:
 
