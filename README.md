@@ -6,9 +6,9 @@ Extensions to [MulleObjCValueFoundation](//github.com/MulleFoundation/MulleObjCV
 that require the **math** library (aka `-lm`).
 
 
-| Release Version                                       | Release Notes
-|-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleFoundation/MulleObjCMathFoundation.svg) [![Build Status](https://github.com/MulleFoundation/MulleObjCMathFoundation/workflows/CI/badge.svg)](//github.com/MulleFoundation/MulleObjCMathFoundation/actions) | [RELEASENOTES](RELEASENOTES.md) |
+| Release Version                                       | Release Notes  | AI Documentation
+|-------------------------------------------------------|----------------|---------------
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/MulleFoundation/MulleObjCMathFoundation.svg) [![Build Status](https://github.com/MulleFoundation/MulleObjCMathFoundation/workflows/CI/badge.svg)](//github.com/MulleFoundation/MulleObjCMathFoundation/actions) | [RELEASENOTES](RELEASENOTES.md) | [DeepWiki for MulleObjCMathFoundation](https://deepwiki.com/MulleFoundation/MulleObjCMathFoundation)
 
 
 
