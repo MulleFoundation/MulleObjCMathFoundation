@@ -1,6 +1,6 @@
 {
    "name" : "MulleObjCMathFoundation",
-   "version" : "0.20.6",
+   "version" : "0.20.7",
    "description" : "📈 NSNumber refines that use the math library",
    "keywords" : [],
    "license" : "BSD-3-Clause",
