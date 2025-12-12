@@ -4,7 +4,7 @@
 #include <math.h>
 
 
-
+#ifdef _C_LNG_DBL
 static void   test_value( char *s, long double v)
 {
    NSNumber   *nr;
@@ -20,10 +20,11 @@ static void   test_value( char *s, long double v)
 
    printf( "%s: %s (%s)\n", s, [[nr stringValue] UTF8String], [className UTF8String]);
 }
-
+#endif
 
 int   main( int argc, char *argv[])
 {
+#ifdef _C_LNG_DBL
    test_value( "0.0L", 0.0L);
    test_value( "1.0L", 1.0L);
    test_value( "1848.0L", 1848.0L);
@@ -37,6 +38,8 @@ int   main( int argc, char *argv[])
    test_value( "LDBL_MAX", LDBL_MAX);
    test_value( "INFINITY", INFINITY);
    test_value( "NAN", NAN);
-
+#else
+   printf( "_C_LNG_DBL not defined, no test for you!\n");
+#endif
    return( 0);
 }
