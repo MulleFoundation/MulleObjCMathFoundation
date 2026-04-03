@@ -20,5 +20,5 @@ src/NSNumber+Math.m
 # contents selected with patternfile ??-source--stage2-sources
 #
 set( STAGE2_SOURCES
-src/MulleObjCLoader+MulleObjCMathFoundation.m
+src/MulleObjCDeps+MulleObjCMathFoundation.m
 )

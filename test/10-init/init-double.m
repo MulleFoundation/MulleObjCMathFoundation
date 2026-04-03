@@ -13,12 +13,12 @@ static void   test_value( double v)
    nr        = [NSNumber numberWithDouble:v];
    if( ! nr)
    {
-      printf( "%g fail\n", v);
+      mulle_printf( "%g fail\n", v);
       return;
    }
    className = NSStringFromClass( [nr class]);
 
-   printf( "%s : %s\n", [[nr stringValue] UTF8String], [className UTF8String]);
+   mulle_printf( "%s : %s\n", [[nr stringValue] UTF8String], [className UTF8String]);
 }
 
 
