@@ -1,4 +1,5 @@
 # MulleObjCMathFoundation Library Documentation for AI
+<!-- Keywords: math, numeric-functions -->
 
 ## 1. Introduction & Purpose
 

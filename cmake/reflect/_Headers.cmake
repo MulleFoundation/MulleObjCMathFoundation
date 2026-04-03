@@ -52,7 +52,7 @@ src/generic/import.h
 # contents selected with patternfile ??-header--public-headers
 #
 set( PUBLIC_HEADERS
-src/MulleObjCLoader+MulleObjCMathFoundation.h
+src/MulleObjCDeps+MulleObjCMathFoundation.h
 src/MulleObjCMathFoundation.h
 src/reflect/_MulleObjCMathFoundation-versioncheck.h
 )
