@@ -1,3 +1,8 @@
+### 0.21.0
+
+* Added platform-safe integer detection for NSNumber and ObjC dependency loader header
+* Updated GitHub CI files to v7
+
 ### 0.20.8
 
 Various small improvements
