@@ -1,63 +1,16 @@
-### 0.21.0
-
-* Added platform-safe integer detection for NSNumber and ObjC dependency loader header
-* Updated GitHub CI files to v7
-
-### 0.20.8
-
-Various small improvements
-
-### 0.20.7
-
-Various small improvements
-
-### 0.20.6
-
-Various small improvements
-
-### 0.20.5
-
-* fix for cosmopolitan
-
-### 0.20.4
-
-* Various small improvements
-
-### 0.20.3
-
-* Various small improvements
-
-### 0.20.2
-
-* Various small improvements
-
-### 0.20.1
-
-* fix for Windows
-
-## 0.20.0
-
-* fix `FE_INVALID` test
+## 0.21.0
 
 
-## 0.19.0
-
-* Various small improvements
 
 
-## 0.18.0
-
-* Various small improvements
 
 
-### 0.17.2
 
-* remove duplicate objc-deps.inc
 
-### 0.17.1
 
-* new mulle-sde project structure
 
-## 0.17.0
+feature: add platform-safe integer detection for NSNumber and ObjC dependency loader header
 
-* extracted -lm dependent code into own library from MulleObjCValueFoundation
+* add public MulleObjCDeps+MulleObjCMathFoundation header/implementation so dependent libraries can declare loader dependencies
+* NSNumber+Math: improve detection whether double/long double represent long long on Windows and cosmopolitan using isfinite/round and LLONG range checks to avoid incorrect integer classification
+* update reflect metadata to register NSNumber Math dependency
