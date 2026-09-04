@@ -13,6 +13,11 @@ that require the **math** library (aka `-lm`).
 
 
 
+## Documentation & Guides
+
+* [API Summary](asset/dox/api/toc)
+
+
 
 ## Info
 

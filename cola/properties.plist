@@ -8,7 +8,7 @@
       name="MulleObjCMathFoundation";
       user="MulleFoundation";
       repo="MulleObjCMathFoundation";
-      version="0.21.1";
+      version="0.21.2";
       homepage="https://github.com/MulleFoundation/MulleObjCMathFoundation";
       license="BSD-3-Clause";
    };
