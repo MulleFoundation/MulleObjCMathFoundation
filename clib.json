@@ -1,6 +1,6 @@
 {
    "name" : "MulleObjCMathFoundation",
-   "version" : "0.21.2",
+   "version" : "0.21.3",
    "description" : "📈 NSNumber refines that use the math library",
    "keywords" : [],
    "license" : "BSD-3-Clause",
@@ -26,6 +26,6 @@
    ],
    "dependencies" : {
       "MulleFoundation/MulleObjCValueFoundation": "*",
-      "mulle-objc/mulle-objc-list": "*"
+      "mulle-objc/mulle-objc-tools": "*"
    }
 }
